@@ -35,15 +35,6 @@ Create, store, and execute custom automation scripts. Build your own library of 
 - Administrator privileges (for certain features)
 - .NET Framework 4.5 or later
 
-## Installation
-
-1. Clone this repository
-2. Ensure PowerShell execution policy allows script execution:
-   ```powershell
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-3. Run `RemoteHelpDeskTool.ps1`
-
 ## Authentication Methods
 
 - **Smart Card** - Use CAC/PIV card authentication
@@ -66,10 +57,3 @@ Remote_tool final/
 └── Logs/                      # Application logs
 ```
 
-## License
-
-© 2025 DOR Hackathon - Team "The Last Picks"
-
-## Version
-
-Version 2000.0

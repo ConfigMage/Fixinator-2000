@@ -1,0 +1,29 @@
+# PowerShell
+*.ps1~
+*.swp
+
+# Logs
+Logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# User-specific files
+*.user
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
